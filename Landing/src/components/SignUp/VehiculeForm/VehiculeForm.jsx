@@ -1,5 +1,4 @@
 import React from 'react';
-import LogoImage from '../../../assets/LOGO.svg'; // Importer le logo
 import './VehiculeForm.css'; // Assurez-vous de créer ce fichier CSS pour styliser le formulaire si nécessaire
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import StepBar from '../StepBar/StepBar';
