@@ -5,7 +5,7 @@ import { MdFavoriteBorder, MdOutlinePayment, MdOutlineReport, MdOutlinePeopleOut
 import { BsChatRightDots } from "react-icons/bs";
 import { TbLogout } from "react-icons/tb";
 import './Sidebar.css'; 
-function Sidebar(i) {
+function sidebar(i) {
     const nameApp='EddU'; 
     
 let Accueilm="itemOn";
