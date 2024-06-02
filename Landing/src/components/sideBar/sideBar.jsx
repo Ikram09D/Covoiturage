@@ -4,7 +4,7 @@ import { TbRoute } from "react-icons/tb";
 import { MdFavoriteBorder, MdOutlinePayment, MdOutlineReport, MdOutlinePeopleOutline } from "react-icons/md";
 import { BsChatRightDots } from "react-icons/bs";
 import { TbLogout } from "react-icons/tb";
-import './sidebar.css'; 
+import './sideBar.css'; 
 function Sidebar(i) {
     const nameApp='EddU'; 
     
