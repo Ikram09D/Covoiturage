@@ -1,0 +1,96 @@
+*{
+  margin: 0px;
+}
+
+.menu {
+  width: 180px;
+  height: 95vh;
+  background-color: rgba(236, 246, 243, 1);
+  color: #000000;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-container {
+  margin-bottom: 20px;
+}
+
+
+
+.logo h1{
+  width: 68px; 
+  position: absolute; 
+  top: 2px; 
+  z-index: -100; 
+  text-indent: -9888px;
+  left: 2px; 
+  background: url(../../assets/logo.svg) no-repeat;
+  background-size: 100%;
+ 
+
+}
+
+.logo img {
+  width: 100%;
+  height: auto;
+
+}
+
+h2 {
+margin-top: 2px;
+margin-left: 80px;
+}
+
+.menu-list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 80px;
+}
+
+.itemOff {
+  display: flex;
+  align-items: center;
+  color: #000000;
+  text-decoration: none;
+  margin-bottom: 20px;
+  transition: all 0.3s ease; 
+  
+
+}
+.itemOn{
+  
+  display: flex;
+  align-items: center;
+  color: #000000;
+  text-decoration: none;
+  margin-bottom: 20px;
+  border: 1.5px solid #40AF92;
+  border-radius: 8px;
+  padding: 8px;
+  background-color: #40AF92;
+  color: white;
+  transition: all 0.3s ease; 
+
+}
+.itemOff:hover {
+  border: 1.5px solid #40AF92;
+  border-radius: 8px;
+  padding: 8px;
+  background-color: #40AF92;
+  color: white;
+}
+
+.itemOff:active {
+  transform: scale(0.95); 
+}
+
+
+.icon {
+  margin-right: 10px;
+}
+
+.logout {
+  margin-top: auto;
+}
+

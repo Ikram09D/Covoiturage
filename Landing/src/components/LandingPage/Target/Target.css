@@ -1,0 +1,35 @@
+#Target {
+  width: 100%;
+  margin-top: 40px;
+  height: 90vh;
+  padding-left: 25px;
+}
+h3 {
+  font-size: 24px;
+}
+#ecriture {
+    margin-top: 10px;
+    margin-left: 10px;
+  width: 55%;
+  height: 400px;
+  float: left;
+}
+#Target #imge {
+  width: 44%;
+  display: flex;
+  margin-top: 34px;
+  float: right;
+  position: inherit;
+}
+#ecriture div{
+   width: 100%;
+   margin-top: 17px;
+   display: flex;
+   width: 305px;
+}
+#ecriture p{
+    margin-top: 16px;
+    font-size: 16px;
+    margin-left: 26px;
+}
+

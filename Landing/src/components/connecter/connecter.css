@@ -1,0 +1,86 @@
+#conecter{
+    background: url(../../assets/back.svg) no-repeat;
+   
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    background-size: 50%;
+    align-items: center;
+    text-align: center;
+    padding-top: 90px;
+}
+#nameAPP{
+    color: rgba(69, 171, 194, 1);
+    margin-bottom: 2%;
+}
+form{
+    width: max-content;
+    margin: auto;
+   text-align:left;
+   
+    align-items: center;
+  
+}
+.formulaire-de-connexion{
+background: url(../../assets/leafbg.svg) no-repeat;
+background-position-x:75% ;
+background-position-y:40%;
+}
+
+h1{
+    font-size: 32px;
+}
+.error-message {
+    color: red;
+    border: 1px solid red;
+    background-color: rgba(255, 0, 0, 0.1);
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+    margin: auto;
+    width: 320px;
+}
+
+#mdpoublier{
+    float: right;
+    margin-top: -3%;
+    color: blue;
+    text-decoration: underline;
+}
+#boutonconnexion{
+    width: 420PX;
+    height: 40px;
+    background-color: rgba(64, 175, 146, 1);
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+}
+.inputdistance {
+ margin-bottom: 4%;
+}
+label{
+    font-size: 16px;
+ font: bold;
+margin-bottom: 3%;
+}
+#lien{
+    color: blue;
+    text-decoration: underline;
+}
+#souvenir{
+    width: 100%;
+    padding: 3px;
+}
+#souvenir input ,#souvenir p{
+    float: left;
+    
+    
+}
+#souvenir input{
+    margin-top: 3px;
+    margin-right: 10px;
+    cursor: pointer;
+}

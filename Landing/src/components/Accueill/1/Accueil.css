@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+#accueil{
+    height: 100vh;
+    width: 103%;
+    font-family: "Space Grotesk", sans-serif;
+    background-color: rgb(242, 238, 238);
+    margin-left:-2%;
+}
+#headerr{
+    height: 85px;
+    float: left;
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+
+#headerr h2{
+   float: left;
+   margin-top:20px;
+   margin-left: 20px;
+}
+#personne{
+    float: right;
+    margin-top: 20px;
+    width: 230px;
+    justify-content: space-evenly;
+}
+
+#personne h3 {
+    float: left;
+    
+}
+#personne p{
+    margin-top: -20px;
+}
+#IDcontainer{
+    width:44PX ;
+    margin-left: 10px;
+    float:left;
+    border-radius: 10%;
+    height: 44PX;
+    background-color: rgb(174, 174, 174);
+}
